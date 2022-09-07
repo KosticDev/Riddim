@@ -2,6 +2,7 @@ import './App.css';
 import About from './components/About';
 import Brand from './components/Brand';
 import FAG from './components/FAG';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Join from './components/Join';
 import Path from './components/Path';
@@ -29,6 +30,7 @@ function App() {
       <Brand />
       <FAG />
       <Join />
+      <Footer />
     </div>
   );
 }
