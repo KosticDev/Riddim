@@ -19,8 +19,8 @@ export default function About() {
         }
     };
 
-    return (
-        <div className="about">
+    return ( 
+        <div id='about' className="about">
             <img className='m_cloud' src={m_cloud} alt="" />
             <div className="about_main">
                 <div className='about_main_content'>

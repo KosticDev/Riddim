@@ -1,7 +1,29 @@
 import cloud from '../assets/Cloud.png'
 import video from '../assets/video.mp4'
+import Lottie from 'react-lottie'
+import riddim from '../lotties/riddim.json'
+import present from '../lotties/present.json'
+
 
 export default function Riddim() {
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: riddim,
+        renderSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
+
+    const defaultOptions1 = {
+        loop: true,
+        autoplay: true,
+        animationData: present,
+        renderSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
+
     return (
         <div className="riddim">
             <div className="riddim_main">
@@ -16,7 +38,7 @@ export default function Riddim() {
                         <img className='r_cloud' src={cloud} alt="" />
                     </div>
                     <div className="riddim_item1_gif">
-
+                        <Lottie options={defaultOptions} width={400} />
                     </div>
                 </div>
                 <div className="riddim_item2">
@@ -32,6 +54,9 @@ export default function Riddim() {
                         <video loop muted autoPlay preload='auto' className='video'>
                             <source src={video} type='video/webm'></source>
                         </video>
+                        <div className="present">
+                            <Lottie options={defaultOptions1} />
+                        </div>
                     </div>
                     <img className='r_cloud2' src={cloud} alt="" />
                 </div>

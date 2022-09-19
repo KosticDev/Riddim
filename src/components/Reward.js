@@ -22,9 +22,9 @@ export default function Reward() {
                         <img className='p_circle1' src={circle} alt="" />
                         <p className='p_circle1_desc' >Fixed Irrelevant Rewards</p>
                     </div>
-                    <div className='circle1'>
+                    <div className='circle1 height'>
                         <div className='mar_5'></div>
-                        <Lottie className="lottie" options={defaultOptions} height={198} width={204} />
+                        <div className='r_lottie'><Lottie options={defaultOptions} /></div>
                         <p className='p_circle1_desc mar_top' >Effect based Rewards</p>
                     </div>
                 </div>

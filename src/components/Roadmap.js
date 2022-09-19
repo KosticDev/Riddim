@@ -4,7 +4,7 @@ import check_w from '../assets/check_w.png'
 
 export default function Roadmap() {
     return(
-        <div className="roadmap">
+        <div id="roadmap" className="roadmap">
             <div className="roadmap_main">
                 <h1 className='rm_title'>The roadmap</h1>
                 <p className='rm_status'>Status:</p>

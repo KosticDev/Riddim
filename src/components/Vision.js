@@ -25,7 +25,7 @@ export default function Vision() {
     };
 
     return (
-        <div className="vision">
+        <div id='vision' className="vision">
             <div className="vision_main">
                 <h2>Our Vision  </h2>
                 <h3>To power the largest Social Reward Ecosystem   </h3>

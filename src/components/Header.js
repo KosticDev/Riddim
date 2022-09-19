@@ -12,8 +12,8 @@ export default function Header() {
                     <li><a href='#vision'>Our Vision</a></li>
                     <li><a href='#roadmap'>Roadmap</a></li>
                     <li><a href='#about'>About us</a></li>
-                    <li><a href='#whitepaper'>Whitepaper</a></li>
-                    <li className='last'><a href='#join'>Join us</a></li>
+                    <li><a href='https://riddimrewards.gitbook.io/wp/whitepaper/riddim-vision' target="_blank">Whitepaper</a></li>
+                    <li className='last'><a href='/careers'>Join us</a></li>
                 </ul>
             </div>
             <div className='navbar_hidden'>
@@ -28,8 +28,8 @@ export default function Header() {
                     <li><a href='#vision'>Our Vision</a></li>
                     <li><a href='#roadmap'>Roadmap</a></li>
                     <li><a href='#about'>About us</a></li>
-                    <li><a href='#whitepaper'>Whitepaper</a></li>
-                    <li><a href='#join'>Join us</a></li>
+                    <li><a href='https://riddimrewards.gitbook.io/wp/whitepaper/riddim-vision' target="_blank">Whitepaper</a></li>
+                    <li><a href='/careers'>Join us</a></li>
                 </ul>
             </div>
         </div>
